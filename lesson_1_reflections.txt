@@ -1,0 +1,36 @@
+Reflections from lesson 1:
+Reviewing code manually is hard. A tool called FC can show me differences in files written with text, however it is important to know the language to iterpret properly. Also understanding code behaviour helps. Reminded me when I hacked MS-DOS games back in the day
+
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+ It highlighted what was different so I did not have to rely on my eyesight to check things. doin it manually requires a loti of attention to detail 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can copy, paste, edit or re-do sections of your code. Work it in a modular way. Also helps you to search for a mistake that you only detected later on. It also gets you to make sure no hacks or malicious users have stuffed up your code
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+automatic saving makes sure you never forget to commit. however you can probably work on multiple logics if you only rely on manual commit. ideally you would want to get both available and adjusted to your own style
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+I do not know. Interdependency I guess?
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log stores the different versions files within a repository so you can track changes without having to have multiple files. git diff will show the actual differences so, in one case, is a way of reading repositories
+
+How might using version control make you more confident to make changes that could break something?
+
+Because I can always roll back if I break somenthing! and also moving between versions is not so hard, even if I am working with multiple files as they are in a repository and all is self contained. easy peasy!
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Play around with UNIX. I need to get versed on it once and for all.
